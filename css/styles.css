@@ -103,7 +103,7 @@ p {
 #testimonials {
 	background-color: #ef8172;
 	color: #ffffff;
-	padding: 7em 15em;
+
 	text-align: center;
 }
 
@@ -111,6 +111,10 @@ p {
 	border-radius: 100%;
 	margin: 1.2em;
 	width: 10%;
+}
+
+.carousel-item {
+	padding: 7em 15em;
 }
 
 /* Press 
