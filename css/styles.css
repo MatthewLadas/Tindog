@@ -118,7 +118,7 @@ p {
 }
 
 /* Press 
-***************/
+********/
 
 #press {
 	background-color: #ef8172;
@@ -129,4 +129,16 @@ p {
 .press-logo {
 	margin: 1.2em 1.2em 3em;
 	width: 15%;
+}
+
+/* Pricing 
+**********/
+
+#pricing {
+	padding: 10em;
+	text-align: center;
+}
+
+.pricing-column {
+	padding: 2em 1em;
 }
