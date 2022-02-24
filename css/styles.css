@@ -37,13 +37,15 @@ p {
 }
 
 .container-fluid {
-	padding: 3em 15em;
+	padding: 3em 15em 7em;
 }
 
 .title-img {
-	margin-left: 10em;
+	/* margin-left: 18em; */
+	position: absolute;
+	right: 20%;
 	transform: rotate(25deg);
-	width: 60%;
+	width: 15%;
 }
 
 /* Navigation Bar
@@ -80,7 +82,10 @@ p {
 ***********/
 
 #features {
+	background-color: #ffffff;
 	padding: 7em 15em;
+	position: relative;
+	z-index: 1;
 }
 
 .feature-box {
@@ -141,4 +146,57 @@ p {
 
 .pricing-column {
 	padding: 2em 1em;
+}
+
+/* Media Queries 
+****************/
+
+@media (max-width: 1300px) {
+	#title {
+		text-align: center;
+	}
+
+	.title-img {
+		margin-left: 10em;
+		position: static;
+		transform: rotate(25deg);
+		width: 60%;
+	}
+
+	.down-btn {
+		margin: 1em 0.5em 1em 0;
+	}
+}
+
+@media (max-width: 1100px) {
+	#title {
+		text-align: center;
+	}
+
+	.title-img {
+		position: static;
+		transform: rotate(0);
+		width: 80%;
+	}
+
+	.down-btn {
+		margin: 1em 0.5em 1em 0;
+	}
+}
+
+@media (max-width: 992px) {
+	#title {
+		text-align: center;
+	}
+
+	.title-img {
+		margin: 0 auto;
+		position: static;
+		transform: rotate(0);
+		width: 80%;
+	}
+
+	.down-btn {
+		margin: 1em 0.5em 1em 0;
+	}
 }
