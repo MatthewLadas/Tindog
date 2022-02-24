@@ -151,52 +151,13 @@ p {
 /* Media Queries 
 ****************/
 
-@media (max-width: 1300px) {
+@media (max-width: 1028px) {
 	#title {
 		text-align: center;
 	}
 
-	.title-img {
-		margin-left: 10em;
-		position: static;
-		transform: rotate(25deg);
-		width: 60%;
-	}
-
-	.down-btn {
-		margin: 1em 0.5em 1em 0;
-	}
-}
-
-@media (max-width: 1100px) {
-	#title {
-		text-align: center;
-	}
-
-	.title-img {
+	.title-image {
 		position: static;
 		transform: rotate(0);
-		width: 80%;
-	}
-
-	.down-btn {
-		margin: 1em 0.5em 1em 0;
-	}
-}
-
-@media (max-width: 992px) {
-	#title {
-		text-align: center;
-	}
-
-	.title-img {
-		margin: 0 auto;
-		position: static;
-		transform: rotate(0);
-		width: 80%;
-	}
-
-	.down-btn {
-		margin: 1em 0.5em 1em 0;
 	}
 }
