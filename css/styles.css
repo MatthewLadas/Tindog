@@ -32,7 +32,7 @@ p {
 ********/
 
 #title {
-	background-color: #ff4c68;
+	background-color: #fc3552;
 	color: #ffffff;
 }
 
@@ -99,7 +99,7 @@ p {
 }
 
 .icon:hover {
-	color: #ff4c68;
+	color: #fc3552;
 }
 
 /* Testimonials 
@@ -146,6 +146,34 @@ p {
 
 .pricing-column {
 	padding: 2em 1em;
+}
+
+/* CTA Section 
+**************/
+
+.cta-heading {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+#cta {
+	background-color: #fc3552;
+	color: #ffffff;
+	padding: 7em 15em;
+	text-align: center;
+}
+
+/* Footer 
+*********/
+
+#footer {
+	padding: 2em 10em;
+	text-align: center;
+}
+
+.social-icon {
+	margin: 1em 0.5em;
 }
 
 /* Media Queries 
