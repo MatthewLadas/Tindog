@@ -29,17 +29,24 @@ p {
 	padding: 7em 15em;
 }
 
+/* Sections 
+***********/
+
+.colored-section {
+	background-color: #fc3552;
+	color: #ffffff;
+}
+
+.white-section {
+	background-color: #ffffff;
+}
+
 /* Title 
 ********/
 
-#title {
-	background-color: #fc3552;
-	color: #ffffff;
-	text-align: left;
-}
-
 #title .container-fluid {
 	padding: 3em 15em 7em;
+	text-align: left;
 }
 
 .title-img {
@@ -84,7 +91,6 @@ p {
 ***********/
 
 #features {
-	background-color: #ffffff;
 	position: relative;
 	z-index: 1;
 }
@@ -111,7 +117,6 @@ p {
 
 #testimonials {
 	background-color: #ef8172;
-	color: #ffffff;
 }
 
 .testimonial-img {
@@ -142,14 +147,6 @@ p {
 
 .pricing-column {
 	padding: 2em 1em;
-}
-
-/* CTA Section 
-**************/
-
-#cta {
-	background-color: #fc3552;
-	color: #ffffff;
 }
 
 /* Footer 
